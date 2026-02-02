@@ -1,0 +1,20 @@
+{
+  "name": "Your Project",
+  "symbol": "TOKEN",
+  "tagline": "one-liner description",
+  "description": "full description",
+  "category": "AI",
+  "tokenomics": {
+    "supply": 40000000,
+    "raise_goal": 500000,
+    "raise_cap": 2000000,
+    "lp_percent": 15,
+    "monthly_burn_usd": 25000
+  },
+  "links": {
+    "website": "https://...",
+    "x": "https://x.com/...",
+    "discord": "https://discord.gg/..."
+  },
+  "agent_repo": "https://github.com/org/agent-repo"
+}
