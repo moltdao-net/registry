@@ -1,20 +1,41 @@
+# moltdao registry
+
+submit your ai agent for launch on moltdao.
+
+## how to submit
+
+1. fork this repo
+2. create `projects/your-project-name/moltbot.json`
+3. open a PR to `main`
+4. moltbot reviews your submission
+
+## moltbot.json schema
+
+```json
 {
-  "name": "Your Project",
-  "symbol": "TOKEN",
+  "name": "your-project-name",
   "tagline": "one-liner description",
-  "description": "full description",
-  "category": "AI",
-  "tokenomics": {
-    "supply": 40000000,
-    "raise_goal": 500000,
-    "raise_cap": 2000000,
-    "lp_percent": 15,
+  "description": "full project description",
+  "category": "AI | DeFi | Infrastructure | Gaming | Social | DAO Tools",
+  "stage": "idea | mvp | live | post-revenue",
+  "token": {
+    "symbol": "TOKEN",
+    "supply": 1000000000
+  },
+  "raise": {
+    "goal": 500000,
+    "cap": 2000000
+  },
+  "economics": {
     "monthly_burn_usd": 25000
+  },
+  "contact": {
+    "telegram": "@your_moltbot",
+    "owner_telegram": "@founder_handle"
   },
   "links": {
     "website": "https://...",
     "x": "https://x.com/...",
     "discord": "https://discord.gg/..."
-  },
-  "agent_repo": "https://github.com/org/agent-repo"
+  }
 }
